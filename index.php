@@ -1,10 +1,11 @@
+<?php
+$nama = "Eko Hadi Prayetno";
+?>
 <html>
 <head>
-    <tittle>Belajar PHP</tittle>
+    <title>Belajar PHP</title>
 </head>
 <body>
- <?php
-echo "<h1>Selamat datang, Eko Hadi Prayetno</h1>";
- ?>
+ <h1>Selamat datang, <?php echo $nama ?></h1>
 </body>
 </html>
