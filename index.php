@@ -1,6 +1,8 @@
 <html>
-<tittle></tittle>
+<head>
+    <tittle>Belajar PHP</tittle>
+</head>
 <body>
-Hellow World!!
+    <h1>Selamat datang <?php echo "Eko Hadi Prayetno" ?></h1>
 </body>
 </html>
