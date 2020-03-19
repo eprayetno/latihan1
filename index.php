@@ -6,6 +6,9 @@ $nama = "Eko Hadi Prayetno";
     <title>Belajar PHP</title>
 </head>
 <body>
- <h1>Selamat datang, <?php echo $nama ?></h1>
+<?php
+echo "Hallo, Selamat datang $nama </br>";
+echo 'Hallo, Selamat datang $nama';
+?>
 </body>
 </html>
