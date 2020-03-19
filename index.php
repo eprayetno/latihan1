@@ -4,29 +4,31 @@
 </head>
 <body>
 <?php
+#Operator Perbandingan
+var_dump(1 < 5);
+echo "</br>";
+var_dump(1 > 5);
+echo "</br>";
+var_dump(1 <= 5);
+echo "</br>";
+var_dump(1 >= 5);
+echo "</br>";
+var_dump(1 == 5);
+echo "</br>";
+var_dump(1 != 5);
+echo "</br>";
+
+#Operator Identitas
+var_dump(1 === "1");
+echo "</br>";
+var_dump(1 !== "1");
+echo "</br>";
+
+#Operator Logika
 $x = 10;
-$x += 2;
-echo $x."</br>";
-
-$y = 10;
-$y -= 2;
-echo $y."</br>";
-
-$z = 10;
-$z *= 2;
-echo $z."</br>";
-
-$a = 10;
-$a /= 2;
-echo $a."</br>";
-
-$b = 10;
-$b %= 2;
-echo $b."</br>";
-
-$c = 10;
-$c .= 2;
-echo $c;
+var_dump($x < 20 && $x % 2 == 0);
+echo "</br>";
+var_dump($x < 20 || $x % 2 == 0);
 ?>
 </body>
 </html>
