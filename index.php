@@ -4,15 +4,10 @@
 </head>
 <body>
 <?php
-#Operator Aritmatika
-$x = 10;
-$y = 20;
+$nama_depan = "Eko";
+$nama_belakang = "Prayetno";
 
-echo $x+$y;
-echo $x-$y;
-echo $x*$y;
-echo $x/$y;
-echo $x%$y;
+echo $nama_depan." ".$nama_belakang;
 ?>
 </body>
 </html>
