@@ -1,6 +1,7 @@
+<h1>Menggunakan pengulangan For</h1>
 <?php
-for ($i=0;$i<5;$i++) {
-    echo "Hello World! <br>";
+for ($i=1;$i<6;$i++) {
+    echo "Hai saya urutan ke-$i <br>";
 }
 
 ?>  
