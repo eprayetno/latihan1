@@ -1,3 +1,2 @@
 <?php
-echo date("l, d-M-Y", mktime(0,0,0,9,28,1986));
-?>
+echo date("l", strtotime("28 september 2030"));
