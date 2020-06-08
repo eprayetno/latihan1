@@ -1,3 +1,11 @@
+<?php
+// cek isset
+if (!isset($_GET["judul"])) {
+    //redirect
+    header("Location: latihan1.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
